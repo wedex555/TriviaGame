@@ -1,0 +1,46 @@
+heading trivia game
+
+
+
+start button
+time remaining
+
+
+$(#start).on("click"){
+    
+}
+only one buton should be choosen
+when the answer is choosen we add one point to the winner
+         let userGuess
+         let correctAnswer = 0
+        let incorrectAnswer = 0
+$(document).ready()
+
+question 1 with three options(a,b,c)
+if 
+
+question 2 with three options
+
+question 3 with three options
+
+function counter==time
+
+function question 1
+for (i=0;i<7;i++)
+if (userGuess===a){
+    wins++;
+}
+else(){
+    losses--;
+}
+function question 2
+if (userGuess===b)
+wins++;
+else(){
+    losses--;
+}
+
+function question3
+if
+hide when timer is up
+and show the result

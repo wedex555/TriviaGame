@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>trivia game</title>
+<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<style type="text/css">
+
+.selected {
+	background-color: red !important;
+} 
+.hide {
+	display: none;
+}
+.container{
+	text-align: center;
+	margin-top: 70px;
+}
+body{
+	background-color: aquamarine;
+}
+#game-wrap{
+	font-style: italic;
+
+} 
+ </style>
+</head>
+<body>
+	<div class="container">
+		<div id="game-wrap">
+		<h2 id="timer" class="hide"></h2>
+		<h3 id="correct" class="hide"></h3>
+		<h3 id="incorrect" class="hide"></h3>
+		<div id="main-content">
+				<h1>play trivia game</h1>
+				<button id="start-game">START</button>
+			</div>
+		</div>
+		<div id="done">
+			
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

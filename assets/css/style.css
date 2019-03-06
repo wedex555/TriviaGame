@@ -1,0 +1,18 @@
+
+.selected {
+	background-color: red !important;
+} 
+.hide {
+	display: none;
+}
+.container{
+	text-align: center;
+	margin-top: 70px;
+}
+body{
+	background-color: aquamarine;
+}
+#game-wrap{
+	font-style: italic;
+
+}
