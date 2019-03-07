@@ -4,7 +4,7 @@
 
 // question q1
 // options o1, o2, o3, o4
-// answer o2
+// answer o2 
 
 var quizData = [
 	{
